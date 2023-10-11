@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: 1.97.1
+  generationVersion: 2.152.1
 generation:
   comments:
     disableComments: false
@@ -7,9 +12,14 @@ generation:
   sdkClassName: PetStore
   singleTagPerOp: false
   tagNamespacingDisabled: false
+features:
+  typescript:
+    core: 2.90.4
+    globalServerURLs: 2.82.0
 typescript:
-  version: 0.0.1
+  version: 0.1.0
   author: KICKdesigns
   clientServerStatusCodesAsErrors: true
+  flattenGlobalSecurity: true
   maxMethodParams: 0
   packageName: PetStore
