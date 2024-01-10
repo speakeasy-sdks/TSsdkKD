@@ -5,7 +5,10 @@ import { PetStore } from "PetStore";
 async function run() {
     const sdk = new PetStore();
 
-    const res = await sdk.pets.createPets();
+    const res = await sdk.pets.createPets({
+        id: 596804,
+        name: "string",
+    });
 
     if (res.statusCode == 200) {
         // handle response
