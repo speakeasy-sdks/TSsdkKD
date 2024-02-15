@@ -4,15 +4,15 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.230.3
-  releaseVersion: 0.5.2
-  configChecksum: 21cf884e4e9f694bb9bd9a8a42b10d9f
+  generationVersion: 2.258.2
+  releaseVersion: 0.5.3
+  configChecksum: 123ff87c496c449205568e8129b695d2
   repoURL: https://github.com/speakeasy-sdks/TSsdkKD.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/TSsdkKD
 features:
   typescript:
-    core: 3.4.5
+    core: 3.4.7
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/sdk/pets.ts
